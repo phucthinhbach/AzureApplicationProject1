@@ -2,34 +2,34 @@
 
 ##Analyze costs, scalability, availability, and workflow
 
-About cost:
+* Costs:
 
-    App Service is cheaper than VM
+- App Service costs less than VM.
 
-About scalability:
+* Regarding scalability:
 
-    VM is more scalable than App Service
+- VM scales better than App Service
 
-About Availability:
+* What's available:
 
-    Both are resilient to failures
+- Both can bounce back from setbacks.
 
-About workflow:
+* Regarding workflow:
 
-    Using App Service is easier to deploy and manage
+- It is simpler to deploy and administer with App Service.
 
-    Using VM gives you more control over the development environment
+- You have more control over the development environment when using VM.
 
-##Choose the appropriate solution (VM or App Service) for deploying the app and justify that choice
+##Select the best option (VM or App Service) for deploying the app and explain your decision.
 
-I would choose the App Service for the following reason:
+* The following are the reasons why I would select the App Service:
 
--Using App Service is cheaper than VM.
+- App Service is less expensive than VM.
 
--This app is not big or complex so it is more cost-effective to use App Service than VM.
+- Because this program is not large or sophisticated, using App Service rather than VM is more cost-effective.
 
--This app is not affected by the development environment (No need to config the development environment) so using App Service is easier and less work than VM.
+- Utilizing App Service is simpler and less work than using a virtual machine since this app is not impacted by the development environment (there is no need to configure the development environment).	
 
-### Assess app changes that would change your decision.
+### Examine app updates that might affect your choice.
 
-If this app needs to config the development environment or changes the programming language which is not supported in App Service then I would consider using VM.
+- I would think about employing VM if this project has to configure the development environment or alter the programming language, both of which are not supported by App Service.
